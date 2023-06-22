@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   titulo: string;
+  imagen: string;
   constructor(){
-    this.titulo = "INCUYO";
+    this.titulo = "TRABAJO PRACTICO REALIZADO";
+    this.imagen = "https://cdn.icon-icons.com/icons2/2248/PNG/512/web_icon_137026.png"
   }
 
 }
