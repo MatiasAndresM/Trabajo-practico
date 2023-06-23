@@ -8,10 +8,14 @@ import { Component } from '@angular/core';
 export class DashboardComponent {
   textEvent: string;
   imagenDashboard: string;
+  titulo: string;
+  tituloAlumno: string;
 
   constructor(){
     this.textEvent="User"
     this.imagenDashboard= "https://www.nicepng.com/png/detail/141-1415492_bootstrap-bootstrap-4-icon-png.png"
+    this.titulo= "¿Que es Angular?"
+    this.tituloAlumno= "Nombre:"
   }
   cambiarTexto(): void{
     this.textEvent="Matias Andres Maza"
